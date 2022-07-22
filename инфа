@@ -1,0 +1,30 @@
+sogl = 'ЗНТЛ'
+gl = 'ИАУ'
+k = 0
+for x1 in gl:
+    for x2 in sogl:
+        for x3 in sogl:
+            for x4 in gl:
+                for x5 in sogl:
+                    for x6 in sogl:
+                        for x7 in gl:
+                            for x8 in sogl:
+                                for x9 in sogl:
+                                    for x10 in gl:
+                                        s = x1 + x2 + x3 + x4 +x5+ x6+ x7 + x8 + x9 + x10
+                                        if s[0] != 'А':
+                                            k+=1
+for x1 in sogl:
+    for x2 in sogl:
+        for x3 in gl:
+            for x4 in sogl:
+                for x5 in sogl:
+                    for x6 in gl:
+                        for x7 in sogl:
+                            for x8 in sogl:
+                                for x9 in gl:
+                                    for x10 in sogl:
+                                        s = x1 + x2 + x3 + x4 +x5+ x6+ x7 + x8 + x9 + x10
+                                        if s[0] != 'А':
+                                            k+=1
+print(k)
