@@ -1,0 +1,4 @@
+def ceil(x): return int(x) if int(x) == x else int(x) + 1
+kolv = ceil(float(33 + 26 + 10) / (2**4))
+res = kolv * len('Сегоднясбегаемотсюдав10часов')
+print(res)
